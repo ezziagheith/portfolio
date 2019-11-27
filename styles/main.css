@@ -13,3 +13,14 @@
 .navbar-dark .navbar-nav .nav-link {
     color: #000;
 }
+
+#izzyspic{
+    margin-top: -40px;
+    margin-left: 15px;
+    border-radius: 15%;
+}
+
+.introduction{
+    text-align: center;
+    margin-top: 80px;
+}
