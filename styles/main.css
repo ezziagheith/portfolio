@@ -15,7 +15,7 @@
 }
 
 #izzyspic{
-    margin-top: -40px;
+    margin-top: -80px;
     margin-left: 15px;
     border-radius: 15%;
 }
@@ -24,3 +24,279 @@
     text-align: center;
     margin-top: 80px;
 }
+.introduction1{
+    text-align: center;
+}
+
+
+.jigsaw1, .jigsaw2, .jigsaw3, .jigsaw4, .jigsaw5, .jigsaw6 {
+    width: 6em;
+    height: 6em;
+    position: relative;
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+    cursor: pointer;
+  }
+  
+  .jigsaw1,
+  .jigsaw1 span {
+   background-color: #FF1493; 
+  }
+  
+  .jigsaw2,
+  .jigsaw2 span {
+   background-color: #FF69B4; 
+  }
+
+  .jigsaw3,
+  .jigsaw3 span {
+   background-color: #FFB6C1; 
+  }
+  .jigsaw4,
+  .jigsaw4 span {
+   background-color: #F2BDCD; 
+  }
+
+  .jigsaw5,
+  .jigsaw5 span {
+   background-color: #E75480; 
+  }
+
+  .jigsaw6,
+  .jigsaw6 span {
+   background-color: #E754CA; 
+  }
+  
+  .text {
+    display: block;
+    color: #fff;
+    font-size: 1em;
+    text-align: center;
+    padding: 1.9em 0 0 1.2em;
+    position: relative;
+    background: transparent !important;
+  }
+  
+  .jigsaw1 .t, .jigsaw2 .t, .jigsaw3 .t, .jigsaw4 .t, .jigsaw5 .t, .jigsaw6 .t {
+    width: 2em;
+    height: 2em;
+    position: absolute;
+    top: -1.5em;
+    left: 2em;
+    -webkit-border-radius: 4em;
+    -moz-border-radius: 4em;
+    border-radius: 4em;
+  }
+  
+  .jigsaw1 .r, .jigsaw2 .r, .jigsaw3 .r, .jigsaw4 .r, .jigsaw5 .r, .jigsaw6 .r {
+    width: 2em;
+    height: 2em;
+    position: absolute;
+    top: 2em;
+    left: 5.5em;
+    -webkit-border-radius: 4em;
+    -moz-border-radius: 4em;
+    border-radius: 4em;
+  }
+  
+  .jigsaw1 .b, .jigsaw2 .b, .jigsaw3 .b, .jigsaw4 .b, .jigsaw5 .b, .jigsaw6 .b  { 
+    width: 1.8em;
+    height: 1.8em;
+    position: absolute;
+    top: 4.5em;
+    left: 2.2em;
+    -webkit-border-radius: 4em;
+    -moz-border-radius: 4em;
+    border-radius: 4em;
+    background-color: #fff;
+  }
+  
+  .jigsaw1 .l, .jigsaw2 .l, .jigsaw3 .l, .jigsaw4 .l, .jigsaw5 .l, .jigsaw6 .l { 
+    width: 1.8em;
+    height: 1.8em;
+    position: absolute;
+    top: 2.2em;
+    left: -.4em;
+    -webkit-border-radius: 4em;
+    -moz-border-radius: 4em;
+    border-radius: 4em;
+    background-color: #fff;
+  }
+
+
+#puzzle{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.page {
+    min-height: 100vh;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#page2{
+    background-color: pink;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20%;
+}
+
+#aboutme-text{
+    color: white;
+}
+
+
+strong{
+    color: #FF69B4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #mydiv {
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+
+} */
+  
+  /* #mydivheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #2196F3;
+    color: #fff;
+  } */
+
+
+  /* #mydiv {
+    position: absolute;
+    z-index: 9;
+    background-color: transparent;
+    text-align: center;
+}
+
+
+
+
+
+ .jigsaw1, .jigsaw2, .jigsaw3{
+    width: 6em;
+    height: 6em;
+    margin: 50px;
+    position: relative;
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+    cursor: pointer;
+    cursor: move;
+    z-index: 10;
+  }
+  
+  .jigsaw1,
+  .jigsaw1 span {
+   background-color: #FF1493; 
+  }
+  
+  .jigsaw2,
+  .jigsaw2 span {
+   background-color: #FF69B4; 
+  }
+
+  .jigsaw3,
+  .jigsaw3 span {
+      background-color: #FFB6C1;
+  }
+  
+  .text {
+    display: block;
+    color: #fff;
+    font-size: 1.0em;
+    text-align: center;
+    padding: 1.9em 0 0 1.2em;
+    position: relative;
+    background: transparent !important;
+  }
+  
+  .jigsaw1 .t, .jigsaw2 .t, .jigsaw3 .t{
+   width: 2em;
+    height: 2em;
+    position: absolute;
+    top: -1.5em;
+    left: 2em;
+    -webkit-border-radius: 4em;
+    -moz-border-radius: 4em;
+    border-radius: 4em;
+  }
+  
+  .jigsaw1 .r, .jigsaw2 .r, .jigsaw3 .r{
+   width: 2em;
+    height: 2em;
+    position: absolute;
+    top: 2em;
+    left: 5.5em;
+    -webkit-border-radius: 4em;
+    -moz-border-radius: 4em;
+    border-radius: 4em;
+  }
+  
+  .jigsaw1 .b, .jigsaw2 .b, .jigsaw3 .b{ 
+   width: 1.8em;
+    height: 1.8em;
+    position: absolute;
+    top: 4.5em;
+    left: 2.2em;
+    -webkit-border-radius: 4em;
+    -moz-border-radius: 4em;
+    border-radius: 4em;
+    background-color: #fff;
+  }
+  
+  .jigsaw1 .l, .jigsaw2 .l, .jigsaw3 .l{ 
+   width: 1.8em;
+    height: 1.8em;
+    position: absolute;
+    top: 2.2em;
+    left: -.4em;
+    -webkit-border-radius: 4em;
+    -moz-border-radius: 4em;
+    border-radius: 4em;
+    background-color: #fff;
+  } */
