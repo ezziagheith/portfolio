@@ -188,8 +188,23 @@
     background-color: pink;
 }
 
+a {
+    color: transparent;
+    text-decoration: none;
+    background-color: transparent;
+}
 
+.videosupreme{
+    position: relative;
+    float: right;
+    margin-right: 35px;
+}
 
+#supremetext{
+    position: relative;
+    top: 200px;
+    left: 10px
+}
 
 
 
