@@ -33,7 +33,7 @@
 }
 
 
-.jigsaw1, .jigsaw2, .jigsaw3, .jigsaw4, .jigsaw5, .jigsaw6 {
+.jigsaw1, .jigsaw2, .jigsaw3, .jigsaw4, .jigsaw5, .jigsaw6, .jigsaw7 {
     width: 6em;
     height: 6em;
     position: relative;
@@ -72,6 +72,11 @@
    background-color: #E754CA; 
   }
   
+  .jigsaw7,
+  .jigsaw7 span {
+   background-color: #FF83A8; 
+  }
+
   .text {
     display: block;
     color: #fff;
@@ -82,7 +87,7 @@
     background: transparent !important;
   }
   
-  .jigsaw1 .t, .jigsaw2 .t, .jigsaw3 .t, .jigsaw4 .t, .jigsaw5 .t, .jigsaw6 .t {
+  .jigsaw1 .t, .jigsaw2 .t, .jigsaw3 .t, .jigsaw4 .t, .jigsaw5 .t, .jigsaw6 .t, .jigsaw7 .t {
     width: 2em;
     height: 2em;
     position: absolute;
@@ -93,7 +98,7 @@
     border-radius: 4em;
   }
   
-  .jigsaw1 .r, .jigsaw2 .r, .jigsaw3 .r, .jigsaw4 .r, .jigsaw5 .r, .jigsaw6 .r {
+  .jigsaw1 .r, .jigsaw2 .r, .jigsaw3 .r, .jigsaw4 .r, .jigsaw5 .r, .jigsaw6 .r, .jigsaw7 .r {
     width: 2em;
     height: 2em;
     position: absolute;
@@ -104,7 +109,7 @@
     border-radius: 4em;
   }
   
-  .jigsaw1 .b, .jigsaw2 .b, .jigsaw3 .b, .jigsaw4 .b, .jigsaw5 .b, .jigsaw6 .b  { 
+  .jigsaw1 .b, .jigsaw2 .b, .jigsaw3 .b, .jigsaw4 .b, .jigsaw5 .b, .jigsaw6 .b, .jigsaw7 .b  { 
     width: 1.8em;
     height: 1.8em;
     position: absolute;
@@ -116,7 +121,7 @@
     background-color: #fff;
   }
   
-  .jigsaw1 .l, .jigsaw2 .l, .jigsaw3 .l, .jigsaw4 .l, .jigsaw5 .l, .jigsaw6 .l { 
+  .jigsaw1 .l, .jigsaw2 .l, .jigsaw3 .l, .jigsaw4 .l, .jigsaw5 .l, .jigsaw6 .l, .jigsaw7 .l { 
     width: 1.8em;
     height: 1.8em;
     position: absolute;
@@ -206,8 +211,38 @@ a {
     left: 10px
 }
 
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: white;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: pink;
+    border: 0;
+}
 
-
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #fff;
+    text-align: left;
+    list-style: none;
+    background-color: pink;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
 
 
 
