@@ -33,7 +33,7 @@
 }
 
 
-.jigsaw1, .jigsaw2, .jigsaw3, .jigsaw4, .jigsaw5, .jigsaw6, .jigsaw7 {
+.jigsaw1, .jigsaw2, .jigsaw3, .jigsaw4, .jigsaw5, .jigsaw6, .jigsaw7, .jigsaw8 {
     width: 6em;
     height: 6em;
     position: relative;
@@ -77,6 +77,11 @@
    background-color: #FF83A8; 
   }
 
+  .jigsaw8,
+  .jigsaw8 span {
+   background-color: #F5CAE6; 
+  }
+
   .text {
     display: block;
     color: #fff;
@@ -87,7 +92,7 @@
     background: transparent !important;
   }
   
-  .jigsaw1 .t, .jigsaw2 .t, .jigsaw3 .t, .jigsaw4 .t, .jigsaw5 .t, .jigsaw6 .t, .jigsaw7 .t {
+  .jigsaw1 .t, .jigsaw2 .t, .jigsaw3 .t, .jigsaw4 .t, .jigsaw5 .t, .jigsaw6 .t, .jigsaw7 .t, .jigsaw8 .t {
     width: 2em;
     height: 2em;
     position: absolute;
@@ -98,7 +103,7 @@
     border-radius: 4em;
   }
   
-  .jigsaw1 .r, .jigsaw2 .r, .jigsaw3 .r, .jigsaw4 .r, .jigsaw5 .r, .jigsaw6 .r, .jigsaw7 .r {
+  .jigsaw1 .r, .jigsaw2 .r, .jigsaw3 .r, .jigsaw4 .r, .jigsaw5 .r, .jigsaw6 .r, .jigsaw7 .r, .jigsaw8 .r {
     width: 2em;
     height: 2em;
     position: absolute;
@@ -109,7 +114,7 @@
     border-radius: 4em;
   }
   
-  .jigsaw1 .b, .jigsaw2 .b, .jigsaw3 .b, .jigsaw4 .b, .jigsaw5 .b, .jigsaw6 .b, .jigsaw7 .b  { 
+  .jigsaw1 .b, .jigsaw2 .b, .jigsaw3 .b, .jigsaw4 .b, .jigsaw5 .b, .jigsaw6 .b, .jigsaw7 .b, .jigsaw8 .b  { 
     width: 1.8em;
     height: 1.8em;
     position: absolute;
@@ -121,7 +126,7 @@
     background-color: #fff;
   }
   
-  .jigsaw1 .l, .jigsaw2 .l, .jigsaw3 .l, .jigsaw4 .l, .jigsaw5 .l, .jigsaw6 .l, .jigsaw7 .l { 
+  .jigsaw1 .l, .jigsaw2 .l, .jigsaw3 .l, .jigsaw4 .l, .jigsaw5 .l, .jigsaw6 .l, .jigsaw7 .l, .jigsaw8 .l { 
     width: 1.8em;
     height: 1.8em;
     position: absolute;
@@ -244,15 +249,42 @@ a {
     border-radius: .25rem;
 }
 
+#page6{
+    background-color: pink;
+}
 
+#izzyspic2{
+    margin-left: 25px;
+    border-radius: 15%;
+}
 
+#contactme{
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: 50px;
+    font-size: 50px;
+}
 
+#github{
+    margin-right: 20px;
+}
 
+#linkedin{
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+}
 
+#email{
+    width: 215px;
+    height: 215px;
+    margin-left: 60px;
+}
 
-
-
-
-
-
-
+.icons{
+    padding: 20px;
+    margin-left: 500px;
+    position: relative;
+    bottom: 300px;
+}
