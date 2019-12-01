@@ -19,17 +19,26 @@
 }
 
 #izzyspic{
-    margin-top: -80px;
-    margin-left: 15px;
+    position: relative;
+    bottom: 40px;
     border-radius: 15%;
 }
 
 .introduction{
-    text-align: center;
-    margin-top: 80px;
+    text-align: left;
+    position: relative;
+    top: 80px;
+    left: 100px;
+    text-shadow: 2px 2px 5px pink;
+    color: pink;
 }
+
 .introduction1{
     text-align: center;
+    position: relative;
+    top: 60px;
+    text-shadow: 2px 2px 5px pink;
+    color: pink;
 }
 
 
