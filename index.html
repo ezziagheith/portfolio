@@ -41,7 +41,8 @@
 
     <section class="page">
         <h1 class="introduction">Hi, I'm Ezzia</h1>
-        <h2 class="introduction1">I Enjoy...</h2>
+        <h1 class="introduction">Software Engineer</h1>
+        <h2 class="introduction1">Experienced with..</h2>
 
         <div>
             <img id="izzyspic" src="/images/izzysheadshot.png" alt="Izzy" width="25%" height="25%">
@@ -111,7 +112,33 @@
 
 
     <section class="page centertext" id="page2">
-        <h2 id="paratext"><span id="aboutme-text">My name is Ezzia and I am currently a student at General Assembly. I am enrolled in the 12 week software engineering immersive program. We learned many different frameworks and libraries like</span> <strong class="frameworks">React</strong><span id="aboutme-text">,</span> <strong class="frameworks">Bootstrap</strong><span id="aboutme-text">,</span> <strong class="frameworks">Node</strong><span id="aboutme-text">,</span> <strong class="frameworks">Express</strong><span id="aboutme-text">,</span> <strong class="frameworks">Python</strong><span id="aboutme-text">,</span> <strong class="frameworks">Django</strong><span id="aboutme-text">,</span> <span id="aboutme-text">and</span> <strong class="frameworks">jQuery</strong><span id="aboutme-text">. Below are some project examples using different frameworks and libraries.</span> </h2>
+        <!-- <h2 id="paratext"><span id="aboutme-text">My name is Ezzia and I am currently a student at General Assembly. I am enrolled in the 12 week software engineering immersive program. We learned many different frameworks and libraries like</span> <strong class="frameworks">React</strong><span id="aboutme-text">,</span> <strong class="frameworks">Bootstrap</strong><span id="aboutme-text">,</span> <strong class="frameworks">Node</strong><span id="aboutme-text">,</span> <strong class="frameworks">Express</strong><span id="aboutme-text">,</span> <strong class="frameworks">Python</strong><span id="aboutme-text">,</span> <strong class="frameworks">Django</strong><span id="aboutme-text">,</span> <span id="aboutme-text">and</span> <strong class="frameworks">jQuery</strong><span id="aboutme-text">. Below are some project examples using different frameworks and libraries.</span> </h2> -->
+        <h1 id="aboutmetitle">About Me</h1>
+        <div class="container">
+                <div class="carousel">
+                  <div class="item a">
+                    <img src="/images/echs.jpg" alt="Izzy" width="200" height="200">
+                  </div>
+                  <div class="item b">
+                      <img src="/images/sfsu.jpg" alt="Izzy" width="200" height="200">
+                  </div>
+                  <div class="item c">
+                      <img src="/images/tlcbt.jpg" alt="TLC" width="200" height="200">
+                  </div>
+                  <div class="item d">
+                      <img src="/images/headcoach.jpg" alt="Team Pic" width="200" height="200">
+                  </div>
+                  <div class="item e">
+                      <img src="/images/campus.jpg" alt="Campus" width="200" height="200">
+                  </div>
+                  <div class="item f">
+                      <img src="/images/generalassembly.jpg" alt="General Assembly" width="200" height="200">
+                  </div>
+                </div>
+              </div>
+              <div class="next">Next</div>
+              <div class="prev">Prev</div>
+        
     </section>
 
     <section class="page" id="page3">
@@ -121,6 +148,7 @@
             </video>
         </a>
         <h3 id="revivetext">
+            <span id="revivethrivetitle">Revive and Thrive</span><br>
             Revive and Thrive was made by one other partner and I.<br> We built this application in just one week using <strong class="frameworks">bootstrap</strong>,<br><strong class="frameworks">node</strong>, <strong class="frameworks">express</strong>, <strong class="frameworks">mongoDB</strong>, <strong class="frameworks">mongoose</strong>, and <strong class="frameworks">javascript</strong>.<br> This was my first time using node and express, so it was<br> challenging given only five days to complete it, but it made<br> me a stronger backend developer. Revive and Thrive was made <br>to allow users to sign up, then get access to fitness events that were happeneing in San Francisco. Users are able to add the class to their list, then view their list on their account page. <br>The video has a few snapshots of the website. Click the video<br> to be directed to the website!
         </h3>
     </section>
@@ -132,12 +160,21 @@
             </video>
         </a>
         <h3 id="supremetext">
+            <span id="supremetitle">Supreme Emperors</span><br>
             <span id="aboutme-text">Supreme Emperors was a project I did with three other partners. We used</span> <strong class="frameworks">React</strong> <span id="aboutme-text">and</span> <strong class="frameworks">Node</strong><span id="aboutme-text"> to build this website in one week. The instructions and prompt were given by our teachers. Learning react, then building a</span> <strong class="frameworks">full-stack application</strong><span id="aboutme-text"> right after was challenging as well, but definitly a great learning experience. Supreme Emperors allows users to register for an account, login, then be able to create posts on different cities around the world. After creating a post, users will be able to see their posts on their profile page. The video on the right shows a view snapshots of the website. Click the video to be directed to the website!</span>
         </h3>
     </section>
 
     <section class="page" id="page5">
-
+        <a href="" target="_blank"> 
+            <video class="hoopers" width="600" height="600" controls>
+                <source src="/images/hooperspick.mp4" type="video/mp4">
+            </video>
+        </a>
+        <h3 id="revivetext">
+            <span id="hooperstitle">Hoopers</span><br>
+            Hoopers was a project I did with two other partners. We used <strong class="frameworks">django</strong> and <strong class="frameworks">python</strong> to build this website in one week. Hoopers allows users to create an account, then find basketball pick-up games happening in their area. Users can also create a basketball pick-up game, which other users are allowed to sign up for. After signing up or creating an event, the user will see those events in their profile page.
+        </h3>
     </section>
 
     <section class="page" id="page6">
@@ -165,6 +202,9 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script src="js/jquery.flexslider-min.js"></script> -->
 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
 <script src="/scripts/app.js"></script>
 </html>

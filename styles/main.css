@@ -173,6 +173,13 @@
 #aboutme-text{
     color: white;
 }
+#aboutmetitle{
+    position: relative;
+    bottom: 200px;
+    left: 550px;
+    font-size: 50px;
+    color: #FF69B4
+}
 
 
 .frameworks{
@@ -203,6 +210,13 @@
     bottom: 400px;
 }
 
+#revivethrivetitle{
+    position: relative;
+    bottom: 40px;
+    font-size: 50px;
+    color: #FF69B4;
+}
+
 #page4{
     background-color: pink;
 }
@@ -223,6 +237,26 @@ a {
     position: relative;
     top: 200px;
     left: 10px
+}
+
+#supremetitle{
+    position: relative;
+    left: 200px;
+    bottom: 50px;
+    font-size: 50px;
+    color: #FF69B4;
+}
+
+.hoopers{
+    position: relative;
+    left: 30px;
+}
+
+#hooperstitle{
+    position: relative;
+    bottom: 50px;
+    font-size: 50px;
+    color: #FF69B4;
 }
 
 .dropdown-item {
@@ -297,3 +331,86 @@ a {
     position: relative;
     bottom: 300px;
 }
+
+
+
+
+
+
+
+  
+  .container {
+    margin: 0 auto;
+    width: 250px;
+    height: 200px;
+    position: relative;
+    perspective: 1000px;
+    bottom: 50px;
+  }
+  
+  .carousel {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+  }
+  
+  .item {
+    display: block;
+    position: absolute;
+    background: #000;
+    width: 250px;
+    height: 200px;
+    line-height: 200px;
+    font-size: 5em;
+    text-align: center;
+    color: #FFF;
+    opacity: 0.95;
+    border-radius: 10px;
+  }
+  
+  .a {
+    transform: rotateY(0deg) translateZ(250px);
+    background: red;
+  }
+  .b {
+    transform: rotateY(60deg) translateZ(250px);
+    background: purple;
+  }
+  .c {
+    transform: rotateY(120deg) translateZ(250px);
+    background: #39b54a;
+  }
+  .d {
+    transform: rotateY(180deg) translateZ(250px);
+    background: #f26522;
+  }
+  .e {
+    transform: rotateY(240deg) translateZ(250px);
+    background: #630460;
+  } 
+  .f {
+    transform: rotateY(300deg) translateZ(250px);
+    background: #8c6239;
+  }
+  
+  .next, .prev {
+    color: white;
+    position: absolute;
+    top: 1000px;
+    padding: 1em 2em;
+    cursor: pointer;
+    background: #FF69B4;
+    border-radius: 5px;
+    border-top: 1px solid #FFF;
+    box-shadow: 0 5px 0 #FF69B4;
+    transition: box-shadow 0.1s, top 0.1s;
+  }
+  .next:hover, .prev:hover { color: #fff; }
+  .next:active, .prev:active {
+    top: 1004px;
+    box-shadow: 0 1px 0 #999;
+  }
+  .next { right: 5em; }
+  .prev { left: 5em; }
