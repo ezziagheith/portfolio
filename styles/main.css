@@ -409,3 +409,9 @@ a {
   }
   .next { right: 5em; }
   .prev { left: 5em; }
+
+
+  img {
+    border-style: none;
+    vertical-align: 0%;
+}

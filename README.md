@@ -21,4 +21,6 @@
 
 * After figuring it out and turning out the way I imagined it, I felt very happy and felt like a winner!ANCHOR 
 
+
+## Code Snippet of puzzle piece function
 ![Code Snippet](/images/codesnippet.png)
